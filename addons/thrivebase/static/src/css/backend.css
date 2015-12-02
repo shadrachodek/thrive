@@ -1,0 +1,188 @@
+* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+.openerp .oe_form_sheet_width {
+    max-width: 95%;
+}
+
+.openerp .oe_leftbar {
+    background-color: #fff;
+    border-right: 1px solid #1D559D;
+}
+
+#oe_main_menu_navbar{
+    padding:10px;
+}
+
+#oe_main_menu_navbar li a, #oe_main_menu_navbar li button{
+	font-size: 15px;
+}
+
+#oe_main_menu_navbar .oe_systray #oe_topbar_imbutton_icon,
+#oe_main_menu_navbar .oe_systray #oe_attendance_sign_in_out_icon {
+    color: #004A99;
+}
+
+.openerp .oe_form header,
+.openerp .oe_view_manager_current > .oe_view_manager_header {
+    border-bottom: 1px solid #1D559D;
+    background: #d4dae1;
+    box-shadow: none;
+}
+
+.openerp .oe_horizontal_separator,
+.openerp .oe_button.oe_link span,
+.openerp .oe_application a,
+.openerp .ui-widget-content a,
+.openerp .oe_view_manager table.oe_view_manager_header h2 a,
+.openerp .oe_secondary_menu_section {
+    color: #1D559D;
+}
+
+.openerp .nav-pills > li.active > a,
+.openerp a.list-group-item.active > a {
+    font-weight:bold;
+    color:#fff;
+}
+
+.openerp .nav-pills > li.active a:hover,
+.openerp .nav-pills > li.active a:focus,
+.openerp a.list-group-item.active a:hover,
+.openerp a.list-group-item.active a:focus {
+    background-color: #446b9d;
+}
+
+.navbar-inverse {
+    background-color: #0d1f35;
+    border-color: #000;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #1D559D;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #9d9d9d !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff !important;
+    font-weight:bold;
+    border:1px solid #fff;
+	background:none;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #d4dae1;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+.oe_single_form_logo{
+	text-align:center;
+}
+.text-right{
+    font-weight: bold;
+    padding-right: 10px;
+    text-align: right;
+}
+.footer-sign{
+	background: #0d1f35 none repeat scroll 0 0;
+	color: #fff;
+	text-align:center;
+	padding:10px 0;
+}
+.oe_button.btn-primary, .oe_button.oe_highlight, .btn-primary{
+    background-color: #0d1f35;
+    border-color: #0d1f35;
+    color: #fff;
+}
+.o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-active{
+	background: #0d1f35 none repeat scroll 0 0;
+        color:#fff;
+}
+.o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-default{
+	color: #0d1f35
+}
+.openerp .badge{
+	background-color: #777777;
+}
+.openerp .oe-control-panel .oe-view-title{
+    background-color: #f0eeee;
+    font-size: 25px;
+    margin: 0;
+    padding-left: 0;
+    text-transform: uppercase;
+}
+.oe_menu_leaf{
+	
+}
+.openerp .oe_secondary_menu_section{
+    /*background: #6F7072 none repeat scroll 0 0;
+    color: #fff !important;*/
+    font-weight: bold;
+    padding: 0 10px;
+    margin-left:0px;
+}
+
+.openerp .oe_leftbar a.side-logo{
+	flex-shrink:0;
+	text-align:center;
+	padding: 10px 0;
+}
+
+.openerp .oe_leftbar a.side-logo:hover .oe_logo_edit_admin{
+	display:block;
+}
+
+.openerp .oe_leftbar a.side-logo .oe_logo_edit {
+    background: rgba(37, 37, 37, 0.9) none repeat scroll 0 0;
+    box-sizing: border-box;
+    color: #eee;
+    display: none;
+    margin: 14px 0;
+    padding: 4px;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 100%;
+}
+.openerp .oe_about .label{
+	background-color:#0d1f35;
+}
+.openerp .oe_about a{
+	color:#0d1f35;
+}
+.o_browse_apps{
+	color:#fff !important;
+}
+.name-spot{
+	background-color: #0d1f35 !important;
+}
+
+.pos .pos-logo{
+	height: 35px;
+    margin-left: 7px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
