@@ -242,8 +242,8 @@ var DashboardShare = Widget.extend({
     init: function(parent, data){
         this.data = data;
         this.parent = parent;
-        this.share_url = 'http://www.odoo.com/';
-        this.share_text = encodeURIComponent("Discover #Odoo - awesome open source business apps. https://www.odoo.com");
+        this.share_url = 'http://www.thrivecloud.com.ng/';
+        this.share_text = encodeURIComponent("Discover #Thrive - awesome business management software. https://www.thrivecloud.com.ng");
     },
 
     share_twitter: function(){
