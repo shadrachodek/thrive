@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Odoo</title>
+  <title>Thrive</title>
   <link rel="shortcut icon" href="/web/static/src/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/web/static/lib/fontawesome/css/font-awesome.css">
   <link rel="stylesheet" href="/web/static/lib/bootstrap/css/bootstrap.css">
@@ -43,7 +43,7 @@
 {%- endmacro %}
 
 {% macro create_form() -%}
-  <p>Fill in this form to create an Odoo database. You may create
+  <p>Fill in this form to create a New Thrive database. You may create
   databases for different companies or for different goals (testing,
   production). Once the database is created, you will be able to
   install your first application.</p>
@@ -74,7 +74,7 @@
       <label>
         <input name="demo" type="checkbox" class="pull-right" value="1">
         <span>Load demonstration data</span>
-        <span class="text-muted"> (Check this box to evaluate Odoo)</span>
+        <span class="text-muted"> (Check this box to evaluate Thrive)</span>
       </label>
     </div>
   </div>
@@ -91,7 +91,7 @@
       </div>
       {% if insecure and databases %}
       <div class="alert alert-warning">
-      Warning, your Odoo database manager is not protected.
+      Warning, your Thrive database manager is not protected.
       Please <a href="#" data-toggle="modal" data-target=".o_database_master">set a master password</a>
       to secure it.
       </div>

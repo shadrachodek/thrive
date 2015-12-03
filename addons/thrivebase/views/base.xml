@@ -23,7 +23,7 @@
             </a>
             <ul class="dropdown-menu" role="menu">
                 <li class="o_planner_link"><a href="#" data-menu="planner">Planner</a></li>
-                <li><a href="#" data-menu="documentation">Documentation</a></li>
+                <li><a href="#">Documentation</a></li>
                  <li><a href="#" data-menu="about">About</a></li>
             </ul>
         </li>
