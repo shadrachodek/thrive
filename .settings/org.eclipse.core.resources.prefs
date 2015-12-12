@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
+encoding//addons/base_setup/base_setup.py=utf-8
+encoding//addons/crm/res_partner.py=utf-8
 encoding//addons/project/project.py=utf-8
+encoding//addons/project/res_partner.py=utf-8
+encoding//addons/sale/sales_team.py=utf-8
 encoding//addons/stock/web_planner.py=utf-8
 encoding//addons/thrivebase/__openerp__.py=utf-8

@@ -148,7 +148,7 @@
                             <div>
                                 <field name="module_account_yodlee" class="oe_inline" widget="upgrade_boolean"/>
                                 <label for="module_account_yodlee"/>
-                                <a href="https://www.odoo.com/page/accounting-features"> View supported banks</a>
+                                <a href="#"> View supported banks</a>
                             </div>
                             <div>
                                 <field name="module_account_plaid" class="oe_inline" widget="upgrade_boolean"/>

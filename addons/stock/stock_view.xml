@@ -503,15 +503,15 @@
                 Click to add a location.
               </p><p>
                 Define your locations to reflect your warehouse structure and
-                organization. Odoo is able to manage physical locations
+                organization. Thrive is able to manage physical locations
                 (warehouses, shelves, bin, etc), partner locations (customers,
                 vendors) and virtual locations which are the counterpart of
                 the stock operations like the manufacturing orders
                 consumptions, inventories, etc.
               </p><p>
-                Every stock operation in Odoo moves the products from one
+                Every stock operation in Thrive moves the products from one
                 location to another one.  For instance, if you receive products
-                from a vendor, Odoo will move products from the Vendor
+                from a vendor, Thrive will move products from the Vendor
                 location to the Stock location. Each report can be performed on
                 physical, partner or virtual locations.
               </p>
@@ -1183,7 +1183,7 @@
               <p class="oe_view_nocontent_create">
                 Click to create a stock operation.
               </p><p>
-                Most operations are prepared automatically by Odoo according
+                Most operations are prepared automatically by Thrive according
                 to your preconfigured logistics rules, but you can also record
                 manual stock movements.
               </p>
