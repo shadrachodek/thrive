@@ -274,7 +274,7 @@
                 </t>
             </div>
             <div class="oe_footer">
-                Powered by <a href="http://www.odoo.com" target="_blank"><span>Odoo</span></a>
+                Powered by <a href="http://www.Thrive.com.ng" target="_blank"><span>Thrive</span></a>
             </div>
         </template>
         <template id="web.menu_secondary_submenu">
@@ -355,7 +355,7 @@
                 <head>
                     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
                     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-                    <title>Odoo Web Tests</title>
+                    <title>Thrive Web Tests</title>
 
                     <link rel="shortcut icon" href="/web/static/src/img/favicon.ico" type="image/x-icon"/>
                     <link rel="stylesheet" href="/web/static/lib/qunit/qunit-1.17.1.css"/>
